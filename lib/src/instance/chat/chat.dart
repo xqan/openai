@@ -10,7 +10,7 @@ import '../../core/utils/logger.dart';
 /// {@endtemplate}
 class OpenAIChat implements OpenAIChatBase {
   @override
-  String get endpoint => "/chat/completions";
+  String get endpoint => "/mychat/completions";
 
   /// {@macro openai_chat}
   OpenAIChat() {
